@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS use it in all page  -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <!-- till here  -->
+    <title>Donate</title>
+    <link rel="stylesheet" href="Donate.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+   
+  
+</head>
+<body>
+
+  
+    <!-- Bootstrap nav starts here  -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+          <a href="#"><img src="images/logog.png" alt=" logo" class = "logo"></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end; gap: 0.5rem;">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./about.html">Overview</a></li>
+                <li><a class="dropdown-item" href="./vm.html">Vision & Mission</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./submit.html">Submit Request</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./inventory.html">Inventory</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link " href="./Donate.html">Donate</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- Ends  here  -->
+      <!--Donate -->
+
+      <div class="main-container">
+        <div class="text">
+        <h2>Choose  the Items for Donate</h2>
+        </div>
+        <div class="radio-buttons">
+          <div class="row-items">
+            <label class="custom-radio">
+              <input type="radio" name="radio" checked>
+              <span class="radio-btn"><i class="las la-check"></i>
+                <div class="hobbies-icon">
+                  <img id="myImage"  src="https://img.freepik.com/free-vector/sport-equipment-concept_1284-13034.jpg?size=626&ext=jpg" alt="Image" onclick="openModal()">
+                         <h3 class="">Games Kit </h3>
+
+                </div>
+              </span>
+            </label> 
+  
+            <label class="custom-radio">
+              <input type="radio" name="radio" >
+              <span class="radio-btn"><i class="las la-check"></i>
+                <div class="hobbies-icon">
+                               <img id="myImage" src="https://img.freepik.com/free-vector/hand-drawn-flat-design-poetry-illustration_23-2149279810.jpg?size=626&ext=jpg"alt ="Image" onclick="openModal()">
+                  <h3 class="">Books</h3>
+                </div>
+              </span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="radio" >
+              <span class="radio-btn"><i class="las la-check"></i>
+                <div class="hobbies-icon">
+                  <img  id =" myImage"src="https://wallpaperaccess.com/full/629233.jpg"alt ="Image" onclick="openModal()">
+                  <h3 class="">Food</h3>
+                </div>
+              </span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="radio" >
+              <span class="radio-btn"><i class="las la-check"></i>
+                <div class="hobbies-icon">
+                   <img src="https://img.freepik.com/free-vector/chemist-concept-illustration_114360-10142.jpg?size=626&ext=jpg"alt ="Image" onclick="openModal()">
+                  <h3 class="">Medicines</h3>
+                </div>
+              </span>
+            </label>
+          </div>
+
+<div class="row-items">
+  <label class="custom-radio">
+    <input type="radio" name="radio" checked>
+    <span class="radio-btn"><i class="las la-check"></i>
+      <div class="hobbies-icon">
+        <a href="./payment.html"><img src="https://media.istockphoto.com/id/1066494436/vector/money-bag-lot-bunch-of-bags-of-money.jpg?s=612x612&w=0&k=20&c=VWwfWkuMPvVEQMLRSetem8qkIiJdFy_t36uSC_P-bI8="></a>
+       <a style="text-decoration: none;" href="./payment.html"> <h3 class="">Cash</h3></a>
+      </div>
+    </span>
+  </label>
+  <label class="custom-radio">
+    <input type="radio" name="radio" checked>
+    <span class="radio-btn"><i class="las la-check"></i>
+      <div class="hobbies-icon">
+        <img src="https://t4.ftcdn.net/jpg/01/37/28/39/360_F_137283991_06diJZml1iUSw7JS3sG6jhtozUTTvk4l.jpg"alt ="Image" onclick="openModal()">
+        <h3 class="">Toys</h3>
+      </div>
+    </span>
+  </label>
+  <label class="custom-radio">
+    <input type="radio" name="radio" checked>
+    <span class="radio-btn"><i class="las la-check"></i>
+      <div class="hobbies-icon">
+        <img src="https://cdn.shopify.com/s/files/1/0104/4630/7364/files/Packing-Gif-Shirt_d64eb93b-3db3-4c0f-863f-1bfaf1cf5083_480x480.gif?v=1643223466"alt ="Image" onclick="openModal()">
+        <h3 class="">Clothes</h3>
+      </div>
+    </span>
+  </label>
+  <label class="custom-radio">
+    <input type="radio" name="radio" checked>
+    <span class="radio-btn"><i class="las la-check"></i>
+      <div class="hobbies-icon">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-twerk-illustration_23-2149447957.jpg?size=626&ext=jpg"alt ="Image" onclick="openModal()">
+        <h3 class="">Others</h3>
+      </div>
+    </span>
+  </label>
+</div>
+
+        
+          
+        </div>
+        
+        
+
+        
+     
+
+  <!--Modal -->
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Donation  Form</h2>
+      <form action="mailto:mysocialinterection.com" method="post" enctype="text/plain">
+        <!-- Your form fields here -->
+      
+       <div class="submitbox">
+        <form class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Donate Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Donar Name </p>
+                <input  type="text" class="form-control" name="" id="textInput" >
+                <div id="msg"></div>
+                <br>
+                <p>Item Name</p>
+                <input type="text" class="form-control" name="" id="textInput">
+                <div id="msg"></div>
+                <br>
+
+
+                <p> Date</p>
+                <input type="date" class="form-control" name="" id="dateInput">
+                <br>
+                <p>Address</p>
+                <input type="text" class="form-control" name="" id="addressInput">
+                <div id="msg"></div>
+                <p>Description</p>
+                <textarea name="" class="form-control" id="textarea" cols="30" rows="5"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" id="add" class="btn btn-primary">Donate</button>
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+  </div>
+  <script src="donate.js"></script>
+
+<!-- Add this in all page  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- ends here  -->
+       
+</body>
+</html>
+
+
+
+
+
+
+
+
